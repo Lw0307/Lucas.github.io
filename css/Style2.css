@@ -1,0 +1,22 @@
+body{background-color:#05a8a8; margin:0; padding:0;}
+
+#wrapper{display: grid; 
+    grid-template-areas: "header header header"
+                        "innergrid innergrid innergrid"
+                         "innergrid1 innergrid1 innergrid1"
+                         "footer footer footer"}
+
+
+
+
+#header, #footer, #innergrid1, #innergrid, #news, #bio, #home, #products, #gallery, #contact, #featureproduct, #gallery1, #whatsnew, #content, #productlistings{border:1px solid black;}
+
+
+#imagescrollbar{grid-area: imagescrollbar;}
+#header{ grid-area: header;}
+#footer{ grid-area: footer;}
+#nav{ grid-area: nav;}
+#innergrid1{ grid-area: innergrid1;}
+#innergrid{ grid-area: innergrid;}
+#main{ grid-area: main; }
+

@@ -1,0 +1,22 @@
+body{background-color:red; margin:0; padding:0;}
+
+#wrapper{display: grid; 
+    grid-template-areas:"head head nav"
+                        "content content nav"
+                        "content photo photo"
+                        "Contact photo photo"}
+
+
+
+
+#head, #photo, #contact, #content, #nav {border:1px red;}
+
+
+#photo{grid-area: photo;}
+#head{ grid-area: head;}
+#nav{ grid-area: nav;}
+#Contact{ grid-area: Contact;}
+#content{ grid-area: content;}
+
+
+
